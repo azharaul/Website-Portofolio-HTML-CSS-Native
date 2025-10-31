@@ -1,0 +1,157 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    border: 1px solid #222831;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #222831;
+    color: #eeeeee;
+}
+
+.navbar .nav-link {
+    display: flex;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    gap: 20px;
+}
+.navbar a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.azharaul {
+    font-weight: bold;
+    font-size: 20px;
+}
+.jumbotron .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.button {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.button a {
+    border: 2px solid #222831;
+    border-radius: 10%;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.light {
+    background-color: #00adb5;
+    color: #222831;
+}
+
+.dark {
+    background-color: #222831;
+    color: #eeeeee;
+}
+
+.jumbotron .container .image img {
+    width: 250px;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.text-content .container h2 {
+    padding: 25px;
+}
+
+.text-content .container p {
+    padding: 25px 50px;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 200px;
+}
+
+.speciality {
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.speciality .container {
+    text-align: center;
+    padding: 35px;
+}
+.speciality .container .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.speciality .container .content .card {
+    width: 500px;
+}
+
+.text-content {
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.text-content .container .button {
+    padding-bottom: 25px;
+}
+
+.text-button {
+    background-color: #393e46;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.text-button a {
+    color: #eeeeee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.description {
+    /* background-color: aqua; */
+    width: 550px;
+    height: auto;
+}
+
+.galery {
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.galery-project {
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    text-align: center;
+}
+.card-img-top {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+.card-title {
+    font-size: large;
+}
+
+footer {
+    background-color: #222831;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+}
